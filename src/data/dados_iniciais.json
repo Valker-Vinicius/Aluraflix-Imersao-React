@@ -1,7 +1,7 @@
 {
   "categorias": [
     {
-      "titulo": "Recomendations",
+      "titulo": "Recommendations",
       "link": "https://www.youtube.com/watch?v=6scZ1qj2w38",
       "cor": "#6BD1FF",
       "link_extra": {
@@ -26,7 +26,7 @@
         },
 
         {
-          "titulo": "Code Geass: Lelouch of the rebellion",
+          "titulo": "Code Geass: Lelouch of the Rebellion",
           "url": "https://www.youtube.com/watch?v=DR1d_Pm729o"
         },
 
