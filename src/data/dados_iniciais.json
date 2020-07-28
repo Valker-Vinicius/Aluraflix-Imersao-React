@@ -1,183 +1,139 @@
 {
   "categorias": [
     {
-      "titulo": "Front End",
-      "link": "https://www.alura.com.br/formacao-front-end",
+      "titulo": "Recomendations",
+      "link": "https://www.youtube.com/watch?v=6scZ1qj2w38",
       "cor": "#6BD1FF",
       "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "i recommend you see the project repo ;)",
+        "url": "https://github.com/Valker-Vinicius/Aluraflix-Imersao-React"
       },
+
       "videos": [
         {
-          "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+          "titulo": "Shingeki no Kyojin - Attack on Titan",
+          "url": "https://www.youtube.com/watch?v=6scZ1qj2w38"
         },
+
         {
-          "titulo": "SEO com React",
-          "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+          "titulo": "Fullmetal Alchemist: Brotherhood",
+          "url": "https://youtu.be/nkgIKFs17Yc"
         },
+
         {
-          "titulo": "Componentização com VanillaJS #AluraMais",
-          "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+          "titulo": "Sword Art Online",
+          "url": "https://www.youtube.com/watch?v=6ohYYtxfDCg"
         },
+
         {
-          "titulo": "Pare de chutar e aprenda a display: inline #01",
-          "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+          "titulo": "Code Geass: Lelouch of the rebellion",
+          "url": "https://www.youtube.com/watch?v=DR1d_Pm729o"
         },
+
         {
-          "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-          "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+          "titulo": "Hunter x Hunter (2011)",
+          "url": "https://www.youtube.com/watch?v=d6kBeJjTGnY"
         },
+        
         {
-          "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+          "titulo": "Death Note",
+          "url": "https://www.youtube.com/watch?v=NlJZ-YgAt-c&t=38s"
         },
+        
         {
-          "titulo": "Novidades do Angular v9",
-          "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+          "titulo": "One Punch Man",
+          "url": "https://www.youtube.com/watch?v=2JAElThbKrI"
         },
+        
         {
-          "titulo": "Base para aprender os frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+          "titulo": "Koe no Katachi - A Silent Voice",
+          "url": "https://www.youtube.com/watch?v=nfK6UgLra7g"
         }        
       ]
     },
+
     {
-      "titulo": "Back End",
+      "titulo": "Openings",
       "cor": "#00C86F",
       "link_extra": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
+        "text": "Here is a playlist with a lot of good openings",
+        "url": "https://www.youtube.com/playlist?list=PLZ8-OrmVZarcLFroNmLacq2xihtQVuk2E"
       },
+
       "videos": [
         {
-          "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-          "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+          "titulo": "Brave Shine - Aimer, Fate/Stay Night: Unlimited Blade Works",
+          "url": "https://www.youtube.com/watch?v=WofLTwSi0uo"
         },
+        
         {
-          "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-          "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+          "titulo": "ASCA - RESISTER, Sword Art Online: Alicization",
+          "url": "https://www.youtube.com/watch?v=4G1ht9MuLHk"
         },
+        
         {
-          "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-          "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+          "titulo": "Shinzou wo Sasageyo - Linked Horizon, Attack on Titan",
+          "url": "https://www.youtube.com/watch?v=CID-sYQNCew"
         },
+        
         {
-          "titulo": "API: Dicionário do Programador",
-          "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
+          "titulo": "Again - Yui, FMAB",
+          "url": "https://www.youtube.com/watch?v=X59yPeVk_70"
         }, 
+        
         {
-          "titulo": "Usando Git Direito",
-          "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+          "titulo": "Chiisana Hibi - flumpool, Kakushigoto",
+          "url": "https://www.youtube.com/watch?v=y7333GgriD8"
         }
       ]
     },
+    
     {
-      "titulo": "Data Science e Inteligência Artificial",
+      "titulo": "Endings",
       "cor": "#9cd33b",
-      "link_extra": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/formacao-data-science"
-      },
+      
       "videos": [
         {
-          "titulo": "Teste de Turing",
-          "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+          "titulo": "Hunting For Your Dream - Galneryus, Hunter x Hunter (2011)",
+          "url": "https://www.youtube.com/watch?v=tK-d2LJlaaQ"
         },
+      
         {
-          "titulo": "O que é Data Science?",
-          "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+          "titulo": " unknown artist and music name,  Code Geass",
+          "url": "https://youtu.be/T03jvnfD-lE"
         },
+      
         {
-          "titulo": "Melhor forma de aprender Python",
-          "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+          "titulo": "NIGHT RUNNING -  Shin Sakiura, Brand New Animal",
+          "url": "https://www.youtube.com/watch?v=WWTFfEnMCCc"
         },
+      
         {
-          "titulo": "Como ingressar no mercado de Data Science?",
-          "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+          "titulo": "Secret Base, Ano Hana",
+          "url": "https://www.youtube.com/watch?v=JRF5TIhshlo"
         }
       ]
     },
+    
     {
-      "titulo": "Filmes",
+      "titulo": "Games",
       "cor": "orange",
       "videos": [
         {
-          "titulo": "Interestellar",
-          "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+          "titulo": "Sword Art Online: Fatal Bullet",
+          "url": "https://www.youtube.com/watch?v=Q2kRS8EgyDo"
         },
         {
-          "titulo": "Gattaca",
-          "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+          "titulo": "Yu Gi Oh!: Duel Links",
+          "url": "https://www.youtube.com/watch?v=eHpb9vPKnfY"
         },
         {
-          "titulo": "A Chegada",
-          "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+          "titulo": "Naruto Shippuden: Ultimate Ninja Storm 3",
+          "url": "https://www.youtube.com/watch?v=iH-kKHfq7Nk"
         },
         {
-          "titulo": "Feitiço do Tempo",
-          "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
-        }
-      ]
-    },
-    {
-      "titulo": "Games",
-      "cor": "red",
-      "link_extra": {
-        "text": "Formação de Jogos na Alura",
-        "url": "https://www.alura.com.br/formacao-jogos-unity"
-      },
-      "videos": [
-        {
-          "titulo": "Final Fantasy 7",
-          "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
-        },
-        {
-          "titulo": "Assassins Creed Valhalla",
-          "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
-        },
-        {
-          "titulo": "God of War 4",
-          "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
-        },
-        {
-          "titulo": "Resident Evil 8",
-          "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
-        },
-        {
-          "titulo": "Pokémon Let's Go Pikachu/Eevee",
-          "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
-        }
-      ]
-    },
-    {
-      "titulo": "Aprendendo a aprender tecnologia",
-      "cor": "#6b5be2",
-      "link_extra": {
-        "text": "Curso sobre aprendizado na Alura",
-        "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
-      },
-      "videos": [
-        {
-          "titulo": "Como estudar melhor?",
-          "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
-        },
-        {
-          "titulo": "Faculdade",
-          "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
-        },
-        {
-          "titulo": "Frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
-        },
-        {
-          "titulo": "A mágica do Aprendizado",
-          "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
-        },
-        {
-          "titulo": "Como aprender a programar?",
-          "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
+          "titulo": "Dragon Ball Fighter Z",
+          "url": "https://www.youtube.com/watch?v=oBI0MU73nlc"
         }
       ]
     }
