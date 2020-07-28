@@ -13,7 +13,18 @@ ReactDOM.render(
       <Route path= "/" component= {Home} exact />
       <Route path= "/register/video" component= {registerVideo} />
       <Route path= "/register/category" component= {registerCategory} />
-      <Route component= {()=> (<div>ERROR 404</div>)} />
+      <Route component= {()=> (
+        <div align= "center" style= {{"margin-top": "-80px"}}>
+          <h1 style= {{"display": "inline"}}>ERROR 404</h1>
+          <p>The requisited page doesn't exist, please verify your address or play this awesome game XD</p>
+          <iframe 
+            height= "400px" 
+            width= "100%" 
+            src="https://editor.p5js.org/Valker-Vinicius/embed/B2fT4YM5j"
+          >
+          </iframe>
+        </div>
+      )} />
     </Switch>
   </BrowserRouter>,
   document.getElementById("root")
