@@ -3,6 +3,7 @@ import { VideoCardGroupContainer, Title, ExtraLink } from './styles';
 import VideoCard from './components/VideoCard';
 import Slider, {SliderItem} from "./components/slider"
 
+// eslint-disable-next-line
 function Carousel({
   ignoreFirstVideo,
   category,
