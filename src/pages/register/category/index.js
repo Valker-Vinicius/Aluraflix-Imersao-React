@@ -1,16 +1,18 @@
 import React, { useState } from "react"
 import { Link } from "react-router-dom"
 import PageDefault from "../../../components/PageDefault"
+import FormField from "../../../components/FormField"
 
 function RegisterCategory() {
-  const [categories, setCategories] = useState(["Default"]) 
-  
   const defaultValues = {
     name: "",
     description: "",
-    color: "#ffffff",
+    color: "",
   }
+
+  const [categories, setCategories] = useState([]) 
   const [values, setValues] = useState(defaultValues)
+  
 
   function setValue(key, value) {
     setValues ({
@@ -20,9 +22,10 @@ function RegisterCategory() {
   }
 
   function handleChange(eventInfo) {
+    const { getAttribute, value } = eventInfo.target
     setValue(
-      eventInfo.target.getAttribute("name"), 
-      eventInfo.target.value
+      getAttribute("name"), 
+      value
     )
   }
 
@@ -40,48 +43,37 @@ function RegisterCategory() {
             ...categories,
             values
           ])
+          
+          setValues(defaultValues)
         }}
       >
-        <div>
-          <label>
-            Category Name:
-            <input
-            
-            type= "text"
-            placeholder= {values.name} 
-            name= "name"
-            onChange= {handleChange}
-          />
-          </label>
-        </div>
+        <FormField
+          label= "Category Name: "
+          type= "text" 
+          value= {values.name}
+          name= "name"
+          onChange= {handleChange}
+        />
+        
+        <FormField 
+          label= "Description: "
+          type= "text"
+          value= {values.description}
+          color= "description"
+          onChange= {handleChange}
+        />
 
-        <div>
-          <label>
-            Description:
-            <textarea 
-            type= "text" 
-            placeholder= {values.description} 
-            name= "description"
-            onChange= {handleChange}
-          />
-          </label>
-        </div>
+        <FormField 
+          label= "Color: "
+          type= "color"
+          value= {values.color}
+          name= "color"
+          onChange= {handleChange}
+        />
 
-        <div>
-          <label>
-            Color:
-            <input 
-            type= "color" 
-            placeholder= {values.color} 
-            name= "color"
-            onChange= {handleChange}
-          />
-          </label>
-
-          <button>
-            Register
-          </button>
-        </div>
+        <button>
+          Register
+        </button>
       </form>
       
       <ul>
