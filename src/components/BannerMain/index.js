@@ -10,7 +10,7 @@ function getYouTubeId(youtubeURL) {
     );
 }
 
-export default function BannerMain({
+export default function BannerMain ({
   videoTitle,
   videoDescription,
   url,
