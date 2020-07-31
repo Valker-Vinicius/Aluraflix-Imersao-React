@@ -1,7 +1,7 @@
 /* eslint-disable linebreak-style */
 import React from 'react';
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 const WrapperFormField = styled.div`
   position: relative;
@@ -15,6 +15,7 @@ const WrapperFormField = styled.div`
 `;
 
 const Label = styled.label``;
+
 Label.Text = styled.span`
   color: #e5e5e5;
   height: 57px;
@@ -39,6 +40,7 @@ const Input = styled.input`
   display: block;
   width: 100%;
   height: 57px;
+  font-size: 18px;
   
   outline: 0;
   border: 0;
@@ -55,7 +57,17 @@ const Input = styled.input`
   &:focus {
     border-bottom-color: var(--primary);
   }
-`
+
+&:focus:not([type='color']) + ${Label.Text} {
+    transform: scale(.6) translateY(-10px);
+  }
+
+  ${({ hasValue }) => hasValue && css`
+&:not([type="color"]) + ${Label.Text} {
+      transform: scale(.6) translateY(-10px);
+    }
+  `}
+`;
 
 function FormField({
   label, type, name, value, onChange,
@@ -64,20 +76,23 @@ function FormField({
   const isTypeTextArea = type === 'textarea';
   const tag = isTypeTextArea ? 'textarea' : 'input';
 
+  const hasValue = Boolean(value.length);
+
   return (
     <WrapperFormField>
       <Label htmlFor={idField}>
-        <Label.Text>
-          {label}
-        </Label.Text>
         <Input
           as={tag}
           id={idField}
           type={type}
           name={name}
           value={value}
+          hasValue={hasValue}
           onChange={onChange}
         />
+        <Label.Text>
+          {label}
+        </Label.Text>
       </Label>
     </WrapperFormField>
   );

@@ -50,6 +50,7 @@ function RegisterCategory() {
         setValues(defaultValues);
       }}
       >
+
         <FormField
           label="Category Name: "
           type="text"
@@ -62,7 +63,7 @@ function RegisterCategory() {
           label="Description: "
           type="textarea"
           value={values.description}
-          color="description"
+          name="description"
           onChange={handleChange}
         />
 
@@ -80,8 +81,8 @@ function RegisterCategory() {
       </form>
 
       <ul>
-        {categories.map((category, index) => (
-          <li key={`${category}${index}`}>
+        {categories.map((category) => (
+          <li key={`${category.name}`}>
             {category.name}
           </li>
         ))}
