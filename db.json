@@ -1,0 +1,17 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "name": "Recomendations",
+            "description": "Recomendations of great animes for you",
+            "color": "#6BD1FF"
+        },
+
+        {
+            "id": 2,
+            "name": "Openings",
+            "descriptions": "A lot of good openings to you listen",
+            "color": "#00C86F"
+        }
+    ]
+}

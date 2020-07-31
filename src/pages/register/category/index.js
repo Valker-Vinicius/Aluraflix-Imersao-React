@@ -1,5 +1,5 @@
 /* eslint-disable linebreak-style */
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
@@ -21,6 +21,17 @@ function RegisterCategory() {
       [key]: value,
     });
   }
+
+  useEffect(() => {
+    const URL = 'http://localhost:8000/categories';
+    fetch(URL)
+      .then(async (fetchAnswer) => {
+        const answer = await fetchAnswer.json();
+        setCategories([
+          ...answer,
+        ]);
+      });
+  }, []);
 
   function handleChange(eventInfo) {
     const { getAttribute, value } = eventInfo.target;
@@ -79,6 +90,12 @@ function RegisterCategory() {
           Register
         </Button>
       </form>
+
+      {categories.length === 0 && (
+        <div>
+          Loading...
+        </div>
+      )}
 
       <ul>
         {categories.map((category) => (
