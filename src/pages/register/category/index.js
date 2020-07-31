@@ -23,7 +23,9 @@ function RegisterCategory() {
   }
 
   useEffect(() => {
-    const URL = 'http://localhost:8000/categories';
+    const URL = window.location.hostname.includes('localhost')
+      ? 'http://localhost:8000/categories' 
+      : 'https://purinflix.herokuapp.com/categories';
     fetch(URL)
       .then(async (fetchAnswer) => {
         const answer = await fetchAnswer.json();
